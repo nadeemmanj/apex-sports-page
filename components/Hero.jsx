@@ -16,7 +16,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-linear-to-r from-zinc-950 via-zinc-950/80 to-zinc-950/30" />
       <div className="absolute inset-0 bg-linear-to-t from-zinc-950 via-transparent to-transparent" />
 
-      <div className="relative z-10 mx-auto w-full max-w-7xl px-5 pb-20 pt-36 lg:px-8">
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-5 pb-10 pt-24 lg:px-8">
         <div className="max-w-3xl">
           <span className="inline-block rounded-full border border-lime-400/40 bg-lime-400/10 px-4 py-1.5 text-xs font-bold tracking-widest text-lime-400">
             SPORTS CLUB & ACADEMY
@@ -49,7 +49,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="mt-16 grid max-w-3xl grid-cols-2 gap-6 border-t border-white/10 pt-8 sm:grid-cols-4">
+        <div className="mt-10 grid max-w-3xl grid-cols-2 gap-6 border-t border-white/10 pt-6 sm:grid-cols-4">
           {stats.map((stat) => (
             <div key={stat.label}>
               <p className="text-3xl font-black text-lime-400">{stat.value}</p>
